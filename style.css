@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  
+  :root {
+    /* Backgrounds */
+    --background-header: #ffffff;
+    --background-doom: #b0a6cc;
+  }
+
+  body {
+    background-color: var(--background-doom);
+  }
+
+.header-nav {
+    background-color: var(--background-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.img-ico {
+    width: 50px;
+    height: 50px;
+    background-image: url(./img/PRMNC.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.nav-link {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link a {
+    text-decoration: none;
+}
